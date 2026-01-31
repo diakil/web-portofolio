@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+
+:root {
+  --primary: #223549;
+  --bg-light: #F7F5EB;
+  --bg-dark: #15191d;
+  --soft-pink: #FDEDED;
+}
+
+
+@theme {
+  --color-primary: var(--primary);
+  --color-background-light: var(--bg-light);
+  --color-background-dark: var(--bg-dark);
+  --color-soft-pink: var(--soft-pink);
+  --font-display: "Inter", sans-serif;
+}
+
+
+body {
+  background-color: #F7F5EB !important; 
+  color: #223549 !important;
+  font-family: "Inter", sans-serif;
+}
+
