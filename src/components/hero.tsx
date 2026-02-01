@@ -1,4 +1,5 @@
 export default function Hero() {
+  
   return (
     <section className="relative overflow-hidden px-6 py-16 md:px-20 lg:px-40 lg:py-24">
       {/* Abstract Decorative Shape */}
@@ -8,7 +9,7 @@ export default function Hero() {
       <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
         <div className="flex-1 text-left space-y-8">
           <div className="space-y-4">
-            <h1 className="text-primary dark:text-#223549-5xl md:text-7xl font-black leading-[1.1] tracking-tighter">
+            <h1 className="text-primary dark:text-slate-400 text-5xl md:text-7xl font-black leading-[1.1] tracking-tighter">
               Hi, I'm Diah Maulida Akil
             </h1>
             <p className="text-primary/70 dark:text-gray-400 text-lg md:text-xl font-normal leading-relaxed max-w-xl">

@@ -3,7 +3,7 @@ import Footer from "../components/footer";
 
 export default function ProjectGallery() {
   const allProjects = [
-    { title: "AWS-Based Coding Education Platform", category: "Cloud Architecture", desc: "Accessible cloud-based programming education.", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuAcEFzk_hEl650V8ifJQ2Kt-jY6JKUnywkwM6i4SSWbRaNjIYB4LCyPG8vNOTdqKzNd_aiQYjyXK2cRJklFwd-fQ0lsOXVUIXUKMPb4KkvaWp3W_PAlw3mabe7FfeUZCGlUlWuacEOeDOyCWVwG_pcQTJTTY4Nys1QDwOaP4rOYGIeVgVLCcf-oGB1B7FO_JZCrwabxTAeYnVN1bLtHbTwz1gHMtWvFfrbw27NLc6kgSWaTbxcM7NEFfgHU4wB94b_UxDGbOK7LX9A" },
+    { title: "AWS-Based Coding Education Platform", category: "Cloud Architecture", desc: "Accessible cloud-based programming education.", img: "/aws-based.png" },
     { title: "Create A News Blog", category: "Web News Experience Design", desc: "Full-stack high-end commerce.", img: "/news-blog.png" },
     { title: "Login Page Register", category: "UI/UX & Web Development", desc: "Complete visual system.", img: "/login-page.png" },
     

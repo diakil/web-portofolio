@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Projects() {
   const projectData = [
     {
@@ -60,10 +62,10 @@ export default function Projects() {
 
       {}
       <div className="mt-20 flex justify-center">
-        <button className="group flex items-center gap-3 text-[#223549] text-lg font-bold">
+        <Link href="/projects" className="group flex items-center gap-3 text-[#223549] text-lg font-bold">
           Browse all projects 
           <span className="transition-transform group-hover:translate-x-2">→</span>
-        </button>
+        </Link>
       </div>
     </section>
   );
