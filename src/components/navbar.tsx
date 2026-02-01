@@ -18,7 +18,7 @@ export default function Navbar() {
         <nav className="flex items-center gap-8 text-sm font-medium text-primary dark:text-gray-200">
           <a href="/projects" className="hover:text-soft-pink transition-colors">Projects</a>
           <a href="/about" className="hover:text-soft-pink transition-colors">About</a>
-          <a href="/contact" className="hover:text-soft-pink transition-colors">Contact</a>
+          <a href="/about" className="hover:text-soft-pink transition-colors">Contact</a>
         </nav>
 
         <div className="flex items-center gap-4">
